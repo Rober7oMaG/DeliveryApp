@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="/build/css/app.css">
+        <title>DeliveryApp</title>
+    </head>
+    <body>
+        <header class="header container">
+            <div class="header__logo">
+                <img src="build/img/logo.svg" alt="DeliveryApp logo">
+            </div>
+
+            <nav class="navigation">
+                <a href="#" class="navigation__link">Log In</a>
+                <a href="#" class="navigation__link">Create Account</a>
+                <a href="#" class="navigation__link navigation__link--register">Register Restaurant</a>
+            </nav>
+        </header>
+
+        <section class="container form">
+            <div class="form__grid">
+                <div class="form__content">
+                    <h2 class="form__heading">Find and order food from your favorite restaurant</h2>
+                    <form class="form__search">
+                        <div class="form__field">
+                            <label for="restaurant" class="form__label">Restaurant</label>
+                            <input type="text" id="restaurant" class="form__input" placeholder="Domino's">
+                        </div>
+                        <div class="form__field">
+                            <label for="food" class="form__label">Food</label>
+                            <input type="text" id="food" class="form__input" placeholder="Pepperoni pizza">
+                        </div>
+
+                        <input type="submit" class="form__submit" value="Search">
+                    </form>
+                </div>
+                <div class="form__image-container">
+                    <img src="build/img/delivery_man_drawing.svg" class="form__image" alt="Delivery man drawing">
+                </div>
+            </div>
+        </section>
+
+        <section class="steps">
+            <img src="build/img/wave.svg" alt="Wave background" class="steps__wave">
+
+            <div class="steps__content">
+                <h2 class="steps__heading">How does it work?<span class="steps__heading--description">As easy as 1, 2, 3</span></h2>
+                <div class="steps__grid container">
+                    <div class="steps__step">
+                        <img src="build/img/step_1.png" alt="Step 1 image" class="steps__image">
+                    </div>
+                    <div class="steps__step">
+                        <img src="build/img/step_2.png" alt="Step 1 image" class="steps__image">
+                    </div>
+                    <div class="steps__step">
+                        <img src="build/img/step_3.png" alt="Step 1 image" class="steps__image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container testimonials">
+            <h2 class="testimonials__heading">Testimonials</h2>
+
+            <div class="testimonials__grid">
+                <div class="testimonial">
+                    <header class="testimonial__header">
+                        <div class="testimonial__image">
+                            <img src="build/img/testimonial1.jpg" alt="Testimonial 1">
+                        </div>
+
+                        <div class="testimonial__info">
+                            <p class="testimonial__author">John Doe</p>
+                            <img src="build/img/stars.png" alt="Rating stars image" class="testimonial__rating">
+                        </div>
+                    </header>
+
+                    <blockquote class="testimonial__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laborum vero, illum quo fuga sunt iste sed.
+                    </blockquote>
+                </div> <!-- .testimonial -->
+                <div class="testimonial">
+                    <header class="testimonial__header">
+                        <div class="testimonial__image">
+                            <img src="build/img/testimonial5.jpg" alt="Testimonial 1">
+                        </div>
+
+                        <div class="testimonial__info">
+                            <p class="testimonial__author">John Doe</p>
+                            <img src="build/img/stars.png" alt="Rating stars image" class="testimonial__rating">
+                        </div>
+                    </header>
+
+                    <blockquote class="testimonial__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </blockquote>
+                </div> <!-- .testimonial -->
+                <div class="testimonial">
+                    <header class="testimonial__header">
+                        <div class="testimonial__image">
+                            <img src="build/img/testimonial4.jpg" alt="Testimonial 1">
+                        </div>
+
+                        <div class="testimonial__info">
+                            <p class="testimonial__author">John Doe</p>
+                            <img src="build/img/stars.png" alt="Rating stars image" class="testimonial__rating">
+                        </div>
+                    </header>
+
+                    <blockquote class="testimonial__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laborum vero, illum quo fuga sunt iste sed. Excepturi animi accusamus fugit?
+                    </blockquote>
+                </div> <!-- .testimonial -->
+                <div class="testimonial">
+                    <header class="testimonial__header">
+                        <div class="testimonial__image">
+                            <img src="build/img/testimonial2.jpg" alt="Testimonial 1">
+                        </div>
+
+                        <div class="testimonial__info">
+                            <p class="testimonial__author">John Doe</p>
+                            <img src="build/img/stars.png" alt="Rating stars image" class="testimonial__rating">
+                        </div>
+                    </header>
+
+                    <blockquote class="testimonial__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laborum vero, illum quo fuga sunt iste sed.
+                    </blockquote>
+                </div> <!-- .testimonial -->
+                <div class="testimonial">
+                    <header class="testimonial__header">
+                        <div class="testimonial__image">
+                            <img src="build/img/testimonial3.jpg" alt="Testimonial 1">
+                        </div>
+
+                        <div class="testimonial__info">
+                            <p class="testimonial__author">John Doe</p>
+                            <img src="build/img/stars.png" alt="Rating stars image" class="testimonial__rating">
+                        </div>
+                    </header>
+
+                    <blockquote class="testimonial__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laborum vero, illum quo fuga sunt iste sed.
+                    </blockquote>
+                </div> <!-- .testimonial -->
+            </div>
+        </section>
+
+        <main class="favorites">
+            <h2 class="favorites__heading">Favorite Restaurants</h2>
+
+            <div class="favorites__grid container">
+                <div class="favorite">
+                    <div class="favorite__grid">
+                        <div class="favorite__image">
+                            <img src="build/img/salads_logo.png" alt="Restaurant logo">
+                        </div>
+
+                        <div class="favorite__content">
+                            <img src="build/img/stars.png" alt="Rating stars image">
+                            <h3 class="favorite__name">Green Salads</h3>
+                            <p class="favorite__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos animi ipsum sequi voluptatem optio consequatur, voluptates voluptatibus? Eos, ab vel minima magni quisquam molestias ut facilis rerum quasi voluptatem nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- .favorite -->
+                <div class="favorite">
+                    <div class="favorite__grid">
+                        <div class="favorite__image">
+                            <img src="build/img/salads_logo.png" alt="Restaurant logo">
+                        </div>
+
+                        <div class="favorite__content">
+                            <img src="build/img/stars.png" alt="Rating stars image">
+                            <h3 class="favorite__name">Green Salads</h3>
+                            <p class="favorite__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos animi ipsum sequi voluptatem optio consequatur, voluptates voluptatibus? Eos, ab vel minima magni quisquam molestias ut facilis rerum quasi voluptatem nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- .favorite -->
+                <div class="favorite">
+                    <div class="favorite__grid">
+                        <div class="favorite__image">
+                            <img src="build/img/salads_logo.png" alt="Restaurant logo">
+                        </div>
+
+                        <div class="favorite__content">
+                            <img src="build/img/stars.png" alt="Rating stars image">
+                            <h3 class="favorite__name">Green Salads</h3>
+                            <p class="favorite__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos animi ipsum sequi voluptatem optio consequatur, voluptates voluptatibus? Eos, ab vel minima magni quisquam molestias ut facilis rerum quasi voluptatem nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- .favorite -->
+                <div class="favorite">
+                    <div class="favorite__grid">
+                        <div class="favorite__image">
+                            <img src="build/img/salads_logo.png" alt="Restaurant logo">
+                        </div>
+
+                        <div class="favorite__content">
+                            <img src="build/img/stars.png" alt="Rating stars image">
+                            <h3 class="favorite__name">Green Salads</h3>
+                            <p class="favorite__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos animi ipsum sequi voluptatem optio consequatur, voluptates voluptatibus? Eos, ab vel minima magni quisquam molestias ut facilis rerum quasi voluptatem nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- .favorite -->
+                <div class="favorite">
+                    <div class="favorite__grid">
+                        <div class="favorite__image">
+                            <img src="build/img/salads_logo.png" alt="Restaurant logo">
+                        </div>
+
+                        <div class="favorite__content">
+                            <img src="build/img/stars.png" alt="Rating stars image">
+                            <h3 class="favorite__name">Green Salads</h3>
+                            <p class="favorite__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos animi ipsum sequi voluptatem optio consequatur, voluptates voluptatibus? Eos, ab vel minima magni quisquam molestias ut facilis rerum quasi voluptatem nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- .favorite -->
+                <div class="favorite">
+                    <div class="favorite__grid">
+                        <div class="favorite__image">
+                            <img src="build/img/salads_logo.png" alt="Restaurant logo">
+                        </div>
+
+                        <div class="favorite__content">
+                            <img src="build/img/stars.png" alt="Rating stars image">
+                            <h3 class="favorite__name">Green Salads</h3>
+                            <p class="favorite__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos animi ipsum sequi voluptatem optio consequatur, voluptates voluptatibus? Eos, ab vel minima magni quisquam molestias ut facilis rerum quasi voluptatem nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- .favorite -->
+                <div class="favorite">
+                    <div class="favorite__grid">
+                        <div class="favorite__image">
+                            <img src="build/img/salads_logo.png" alt="Restaurant logo">
+                        </div>
+
+                        <div class="favorite__content">
+                            <img src="build/img/stars.png" alt="Rating stars image">
+                            <h3 class="favorite__name">Green Salads</h3>
+                            <p class="favorite__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos animi ipsum sequi voluptatem optio consequatur, voluptates voluptatibus? Eos, ab vel minima magni quisquam molestias ut facilis rerum quasi voluptatem nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- .favorite -->
+                <div class="favorite">
+                    <div class="favorite__grid">
+                        <div class="favorite__image">
+                            <img src="build/img/salads_logo.png" alt="Restaurant logo">
+                        </div>
+
+                        <div class="favorite__content">
+                            <img src="build/img/stars.png" alt="Rating stars image">
+                            <h3 class="favorite__name">Green Salads</h3>
+                            <p class="favorite__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos animi ipsum sequi voluptatem optio consequatur, voluptates voluptatibus? Eos, ab vel minima magni quisquam molestias ut facilis rerum quasi voluptatem nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- .favorite -->
+                <div class="favorite">
+                    <div class="favorite__grid">
+                        <div class="favorite__image">
+                            <img src="build/img/salads_logo.png" alt="Restaurant logo">
+                        </div>
+
+                        <div class="favorite__content">
+                            <img src="build/img/stars.png" alt="Rating stars image">
+                            <h3 class="favorite__name">Green Salads</h3>
+                            <p class="favorite__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos animi ipsum sequi voluptatem optio consequatur, voluptates voluptatibus? Eos, ab vel minima magni quisquam molestias ut facilis rerum quasi voluptatem nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- .favorite -->
+                <div class="favorite">
+                    <div class="favorite__grid">
+                        <div class="favorite__image">
+                            <img src="build/img/salads_logo.png" alt="Restaurant logo">
+                        </div>
+
+                        <div class="favorite__content">
+                            <img src="build/img/stars.png" alt="Rating stars image">
+                            <h3 class="favorite__name">Green Salads</h3>
+                            <p class="favorite__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos animi ipsum sequi voluptatem optio consequatur, voluptates voluptatibus? Eos, ab vel minima magni quisquam molestias ut facilis rerum quasi voluptatem nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- .favorite -->
+            </div>
+        </main>
+
+        <section class="delivery-men">
+            <h2 class="delivery-men__heading">Earn money with DeliveryApp</h2>
+            <div class="delivery-men__grid container">
+                <div class="delivery-men__image">
+                    <img src="build/img/delivery_man.jpg" alt="Delivery man image">
+                </div>
+
+                <div class="delivery-men__content">
+                    <p class="delivery-men__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus maiores dolores quibusdam impedit sit quia dicta, eaque vel modi expedita architecto. Iste odit ut tempora voluptatibus quaerat, quia quam?
+                    </p>
+                    <p class="delivery-men__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus maiores dolores quibusdam impedit sit quia dicta, eaque vel modi expedita architecto. Iste odit ut tempora voluptatibus quaerat, quia quam?
+                    </p>
+
+                    <a href="#" class="delivery-men__link">More information</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="download">
+            <div class="download__grid container">
+                <div class="download__image">
+                    <img src="build/img/app.png" alt="App image">
+                </div>
+
+                <div class="stores">
+                    <h3 class="stores__heading">Download the App</h3>
+                    <p class="stores__text">Available for iOS and Android</p>
+
+                    <div class="stores__grid">
+                        <a href="#" class="stores__link">
+                            <img src="build/img/apple_store.svg" alt="Apple Store">
+                        </a>
+                        <a href="#" class="stores__link">
+                            <img src="build/img/android_store.svg" alt="Android Store">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__grid container">
+                <div class="footer__box">
+                    <h3 class="footer__heading">About Us</h3>
+                    <p class="footer__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, quas, vitae cumque voluptatum beatae eligendi laudantium enim ipsam laboriosam, reiciendis similique ducimus deserunt repudiandae omnis doloribus distinctio alias? Ab, libero?
+                    </p>
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer__heading">Navigation</h3>
+                    <nav class="footer__navigation">
+                        <a href="#" class="footer__link">Order</a>
+                        <a href="#" class="footer__link">How to use</a>
+                        <a href="#" class="footer__link">Testimonials</a>
+                        <a href="#" class="footer__link">Favorites</a>
+                        <a href="#" class="footer__link">Join Us</a>
+                        <a href="#" class="footer__link">Download</a>
+                    </nav>
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer__heading">Contact</h3>
+                    <p class="footer__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, quas, vitae cumque voluptatum beatae eligendi laudantium enim ipsam laboriosam, reiciendis similique ducimus deserunt repudiandae omnis doloribus distinctio alias? Ab, libero?
+                    </p>
+                </div>
+            </div>
+
+            <p class="footer__copyright">DeliveryApp. All Rights Reserved &copy;</p>
+        </footer>
+    </body>
+</html>
